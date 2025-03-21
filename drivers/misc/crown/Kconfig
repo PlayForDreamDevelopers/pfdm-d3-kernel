@@ -1,0 +1,6 @@
+config CROWN_DEVICE
+	tristate "CROWN device driver"
+
+config CROWN_MT3503
+	tristate "CROWN with I2C driver"
+	depends on CROWN_DEVICE

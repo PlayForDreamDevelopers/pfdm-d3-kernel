@@ -1,0 +1,2 @@
+config AW8646_STEP
+	tristate "Step motor driver for awinic AW8646"
